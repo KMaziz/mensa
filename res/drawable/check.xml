@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--When unselected-->
+    <item android:drawable="@drawable/favorite_icon_unfilled"
+        android:state_checked="false"/>
+    <!--When selected -->
+    <item android:drawable="@drawable/favorite_icon_filled"
+        android:state_checked="true"/>
+</selector>

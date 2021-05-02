@@ -1,0 +1,51 @@
+id,name,addr,plz,lat,lon
+534,Mensa ASH Berlin Hellersdorf,Alice-Salomon-Platz 5,12627,52.5375673,52.5375673
+535,Mensa Beuth Hochschule für Technik Kurfürstenstraße,Kurfürstenstraße 141,10785,52.500488,13.359294
+527,Mensa Beuth Hochschule für Technik Luxemburger Straße,Luxemburger Straße 9,13353,52.544558,13.354556
+537,Mensa Charité Zahnklinik,Aßmannshauser Str. 2-6,14197,52.478000,13.312230
+529,Mensa EHB Teltower Damm,Teltower Damm 118 - 122,14167,52.423610,13.261550
+271,Mensa FU Herrenhaus Düppel,Oertzenweg 19b,14163,52.429979,13.237412
+322,Mensa FU II Otto-von-Simson-Straße,Otto-von-Simson-Straße 26,14195,52.452186,13.289436
+528,Mensa FU Lankwitz Malteserstraße,Malteser Straße 74,12249,52.426496,13.357429
+531,Mensa HfM Charlottenstraße,Charlottenstraße 55,10117,52.513732,13.390856
+533,Mensa HfS Schnellerstraße,Schnellerstraße 104,12439,52.454100,13.520140
+320,Mensa HTW Treskowallee,Treskowallee 8,10318,52.493076,13.525682
+319,Mensa HTW Wilhelminenhof,Wilhelminenhofstraße 75 A,12459,52.457051,13.527580
+147,Mensa HU Nord,Hannoversche Straße 7,10115,52.527990,13.381825
+191,Mensa HU Oase Adlershof,Rudower Chaussee 25,12489,52.429384,13.530310
+367,Mensa HU Süd,Unter den Linden 6,10117,52.518451,13.393583
+270,Mensa HU Spandauer Straße,Spandauer Straße 1,10178,52.521033,13.402774
+526,Mensa HWR Badensche Straße,Badensche Str. 51,10825,52.485607,13.338134
+532,Mensa Katholische HS für Sozialwesen,Köpenicker Allee 39 - 57,10318,52.488459,13.533344
+530,Mensa KHS Weißensee,Bühringstraße 20,13086,52.558040,13.439400
+321,Mensa TU Hardenbergstraße,Hardenbergstraße 34,10623,52.509748,13.326222
+323,Mensa Veggie № 1 - Die grüne Mensa,Van't-Hoff-Str. 6,14195,52.446953,13.283159
+368,Cafeteria FU Ihnestraße,Ihnestraße 21,14195,52.449138,13.277200
+660,Cafeteria FU Koserstraße,Koserstraße 20,14195,52.461330,13.294510
+542,Cafeteria FU Pharmazie,Königin-Luise-Str. 2,14195,52.458640,13.305930
+277,Cafeteria FU Rechtswissenschaft,Van't-Hoff-Str. 8,14195,52.447797,13.281953
+543,Cafeteria FU Wirtschaftswissenschaften,Garystraße 21,14195,52.447117,13.280960
+659,Cafeteria HU „Jacob und Wilhelm Grimm Zentrum“,Geschwister-Scholl-Str. 1,10117,52.520383,13.390299
+539,Cafeteria TU Ackerstraße,Ackerstraße 71 - 76,13355,52.538949,13.384953
+540,Cafeteria TU Architektur,Straße des 17. Juni 152,10623,52.515819,13.324281
+657,Cafeteria TU „Skyline“,Ernst-Reuter-Platz 7,10587,52.513004,13.320018
+631,Cafeteria TU Hardenbergstraße,Hardenbergstraße 34,10623,52.509748,13.326222
+541,Cafeteria TU Hauptgebäude „Wetterleuchten“,Straße des 17. Juni 135,10623,52.512107,13.326982
+538,Cafeteria TU Marchstraße,Marchstraße 23,10587,52.516587,13.323600
+722,Cafeteria UdK „Jazz-Cafe“,Einsteinufer 43 - 53,10587,52.517230,13.322650
+658,Cafeteria UdK Lietzenburger Straße,Lietzenburger Straße 45,10789,52.499864,13.332904
+647,Coffeebar Beuth Hochschule,Luxemburger Straße 9,13353,52.544558,13.354556
+648,Coffeebar Beuth Hochschule Haus Grashof,Luxemburger Straße 10,13353,52.545179,13.354742
+1407,Coffeebar EHB Teltower Damm,Teltower Damm 118 - 122,14167,52.423610,13.261550
+723,Coffeebar HfM „Neuer Marstall“,Schlossplatz 7,10718,52.516601,13.403522
+724,Coffeebar HfM Charlottenstraße,Charlottenstraße 55,10117,52.513732,13.390856
+1651,Coffeebar HTW Treskowallee,Treskowallee 8,10318,52.493076,13.525682
+725,Coffeebar HTW Wilhelminenhof,Wilhelminenhofstraße 75 A,12459,52.457051,13.527580
+661,Coffeebar HU „c.t.“,Unter den Linden 6,10117,52.518451,13.393583
+721,Coffeebar HU Mensa Nord,Hannoversche Straße 7,10115,52.527990,13.381825
+720,Coffeebar HU Oase Adlershof,Rudower Chaussee 25,12489,52.429384,13.530310
+727,Coffeebar HWR Alt-Friedrichsfelde,Alt-Friedrichsfelde 60,10315,52.507539,13.525365
+728,Coffeebar HWR Badensche Straße,Badensche Str. 52,10825,52.485473,13.338214
+649,Coffeebar Mensa FU II,Otto-von-Simson-Straße 26,14195,52.452186,13.289436
+650,Coffeebar Mensa Lankwitz,Malteser Straße 74,12249,52.426496,13.357429
+632,Coffeebar TU Hardenbergstraße,Hardenbergstraße 34,10623,52.509748,13.326222

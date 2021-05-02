@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
+    <!--CHILD LINEARLAYOUT-->
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!--Salate-->
+    <LinearLayout
+        android:id="@+id/meal_salate_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/meal_boxes"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:id="@+id/mensa_meal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salate"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/meal_salate_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/meal_boxes_f"/>
+
+    </LinearLayout>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_meal_salad"
+
+            />
+
+
+
+    <!--SUPPEN-->
+    <LinearLayout
+        android:id="@+id/meal_suppen_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/meal_boxes"
+        android:orientation="vertical"
+        android:layout_below="@id/meal_salate_layout"
+        android:gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/mensa_meal_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suppen"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/meal_suppen_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/meal_boxes_f"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@id/meal_suppen_layout"
+        android:layout_alignTop="@id/meal_suppen_layout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-25dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_meal_soup" />
+
+    <!--Aktionen-->
+    <LinearLayout
+        android:id="@+id/meal_aktionen_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/meal_boxes"
+        android:orientation="vertical"
+        android:layout_below="@id/meal_suppen_layout"
+        android:gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/mensa_meal_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktionen"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/meal_aktionen_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/meal_boxes_f"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@id/meal_aktionen_layout"
+        android:layout_alignTop="@id/meal_aktionen_layout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-24dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_meal_aktion"
+        />
+
+    <!--Essen-->
+    <LinearLayout
+        android:id="@+id/meal_essen_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/meal_boxes"
+        android:orientation="vertical"
+        android:layout_below="@id/meal_aktionen_layout"
+        android:gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/mensa_meal_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Essen"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/meal_essen_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/meal_boxes_f"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@id/meal_essen_layout"
+        android:layout_alignTop="@id/meal_essen_layout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-29dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_meal_essen"/>
+
+    <!--Beilagen-->
+
+    <LinearLayout
+        android:id="@+id/meal_beilagen_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/meal_boxes"
+        android:orientation="vertical"
+        android:layout_below="@id/meal_essen_layout"
+        android:gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/mensa_meal_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beilagen"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/meal_beilagen_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/meal_boxes_f"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@id/meal_beilagen_layout"
+        android:layout_alignTop="@id/meal_beilagen_layout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-32dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_meal_beilagen"/>
+
+    <!--Dessert-->
+
+    <LinearLayout
+        android:id="@+id/meal_dessert_layout"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/meal_boxes"
+        android:orientation="vertical"
+        android:layout_below="@id/meal_beilagen_layout"
+        android:gravity="center_horizontal"
+        >
+
+
+        <TextView
+            android:id="@+id/mensa_meal_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dessert"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/meal_dessert_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/meal_boxes_f"
+            />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@id/meal_dessert_layout"
+        android:layout_alignTop="@id/meal_dessert_layout"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-32dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_meal_dessert"/>
+
+    </RelativeLayout>
+</ScrollView>
